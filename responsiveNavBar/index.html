@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <meta name="description" content="Este es un ejemplo de como realizar una barra de navegación adaptable 
+    (resposive) usando HTML, CSS y JavasCript, Para diferentes dispositivos ya sean computadoras, tabletas, smartphones, etc.">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    
+    <title>Responsive NavBar</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">GitHub</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x-circle' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="#" style="--i:0">
+                <i class='bx bxs-home'></i>
+                Inicio
+            </a>
+            <a href="#" style="--i:1">
+                <i class='bx bxl-github'></i>
+                Repositorio
+            </a>
+            <a href="#" style="--i:2"> 
+                <i class='bx bxl-instagram-alt'></i>
+                Instagram
+            </a>
+            <a href="#" style="--i:3">
+                <i class='bx bxl-whatsapp' ></i>
+                Whatsapp
+            </a>
+            <a href="#" style="--i:4">
+                <i class='bx bxl-tiktok' ></i>
+                TikTok
+            </a>
+        </nav>
+    </header>
+</body>
+</html>
